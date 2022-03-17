@@ -8,8 +8,8 @@ const path = require('path');
 
 // const user = JSON.parse(fs.readFileSync('user.json', 'UTF-8'));
 const Instagram = new nistagram.default();
-const members = ['sadgrumpy'];
-const userIds = ['10574237279'];
+const members = ['insanepeople59'];
+const userIds = ['49091655652'];
 
 const upsert = async (params) => {
   const {table, object, constraint} = params;
